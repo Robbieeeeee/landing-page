@@ -1,12 +1,13 @@
 
-
 body{
-    background-color: violet;
-    background-color: Soft Magenta hsl(300, 69%, 71%);
+    background-color: hsl(257, 40%, 49%);
+    font-weight: 400;
+    
 }
 
 h1 {
-    font-weight: 600
+    font-family: "Poppins";
+    font-weight: 500;
 }
 
 .main-content{
@@ -33,29 +34,7 @@ h1 {
     bottom: 0px; 
     position: flex;
 }
-.fa-facebook{
-    background: #3b5998;
-    color: white;
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-}
-.fa-twitter{
-    background: #3b5998;
-    color: white;
-    padding: 20px;
-    font-size: 30px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-}
+
 
 /* for mobile */
 @media only screen and (max-width: 375px) {
